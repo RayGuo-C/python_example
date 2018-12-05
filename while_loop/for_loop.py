@@ -7,9 +7,12 @@ for friend in friends:
 for index in range(len(friends)):
     print(friends[index])
 
+# for - else: while finish codes in for-structure, then start to implement the else part
 for i in range(1,5):
-	print(i)
+	for j in range(4):
+		print(i,j)
 else:
+	print(i,j)
 	print('over')
 
 # to track the different collow
